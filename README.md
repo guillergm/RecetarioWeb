@@ -1,2 +1,2 @@
 # RecetarioWeb
- Trabajo Grupañ
+ Trabajo Grupal
