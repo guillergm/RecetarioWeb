@@ -1,0 +1,680 @@
+body{
+  background-image: url(./images/logos4.jpg);
+  background-repeat: repeat;
+  margin: 0px auto;
+  float: left;
+  padding: 0px;
+}
+
+.container{
+  width: 100%;
+}
+
+.encabezado1 {
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  border: 0.5px white;
+  display: flex;
+  flex-direction: row;
+}
+
+.ingresaryregistrar {
+  color: white;
+  font-size: 120%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  align-self: flex-end;
+}
+
+.imagenlogo {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+.iniciohorizontal{
+  list-style:none;
+  display:flex;
+  justify-content: space-between;
+}
+
+.iniciohorizontal  li {
+  display: block;
+  
+  color: rgb(0, 0, 0);
+  text-decoration:none;
+  font-size: 23px;
+}
+
+.iniciohorizontal  li:hover{
+  background-color: rgb(250, 255, 0);
+  opacity:90%;
+}
+
+.iniciohorizontal li:hover .menu-vertical{
+    display: block;
+}
+
+.menu-vertical{
+  position: absolute;
+  display: none;
+  list-style:none;
+  background-color: rgba(0, 0, 0, 0.832);
+}
+
+.menu-vertical li:hover{
+  background-color:rgba(196, 196, 196, 0.67)
+}
+
+.menu-vertical li a{
+  display: block;
+  color:rgb(255, 238, 86);
+  background-color: black;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration:none;
+  text-align: left;
+  text-align: justify;
+}
+
+.ingredientes-barra{
+  position: absolute;
+  display: none;
+  list-style:none;
+  background-color: rgba(240, 234, 71, 0.832);
+}
+
+.iniciohorizontal li:hover .ingredientes-barra{
+  display: block;
+}
+
+.ingredientes-barra li:hover{
+  background-color:rgb(209, 209, 209)
+}
+
+.ingredientes-barra li {
+  display: block;
+  color:rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration:none;
+  text-align: left;
+  text-align: justify;
+}
+
+.autores{
+  position: absolute;
+  display: none;
+  list-style:none;
+  background-color: rgba(240, 234, 71, 0.832);
+}
+
+.iniciohorizontal li:hover .autores{
+  display: block;
+}
+
+.autores li:hover{
+  background-color:rgb(164, 164, 164);
+}
+
+.autores li {
+  display: block;
+  color:rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration:none;
+  text-align: left;
+  text-align: justify;
+}
+
+.backgroundimage2{
+  background-image: url(./images/cocina1.jpg);
+  background-size: cover;
+  width: 100%;
+  box-shadow: -10px 10px 20px 2px rgba(0, 0, 0, 0.849);  
+  border: 1.5px solid rgb(95, 70, 42);
+}
+
+.encabezadoRecetario{
+  width: 100%;
+  background-size: cover;
+  background-image: url(./images/tablon.jpeg);
+  background-repeat: no-repeat;
+  box-shadow: -10px 10px 20px 2px rgba(0, 0, 0, 0.849); 
+  border: 1.5px solid rgb(95, 70, 42);
+}
+.textoRecetario{
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  font-family: "New Tegomin", serif;
+  text-shadow: rgb(126, 119, 45) 2px 2px 2px;
+}
+
+
+.cuerditas2{
+  margin: 0 auto;
+  filter: drop-shadow(-5px 0px 7px #000000ea);
+  z-index: -2;
+  width: 100%;
+  margin-bottom: -4px;  
+}
+
+.receta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-shadow: rgb(102, 102, 16) 1px 1px 1px;
+  background-color: rgb(14, 14, 14);
+  box-shadow: -10px 10px 20px 2px black;
+  color: rgb(250, 240, 101);
+  display: flex;
+  left: 20px;
+  position: relative;
+  bottom: -30px;
+}
+
+.tituloReceta {
+  font-family: "New Tegomin", serif;
+  background-color: yellow;
+  position: relative;
+  z-index: 0;
+  margin: 0px;
+  padding: 0%;
+  text-align: center;
+  text-shadow: rgb(109, 109, 33) 3px 3px 3px;
+  color: black;
+  width: 100%;
+  
+}
+
+.imagenes2 {
+  position: relative; 
+  float: left;
+  z-index: 5;
+}
+
+  
+.contenido{
+  font-size: 13px;
+  padding: 12px;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.casita{
+/* position: relative; */
+background-color: yellow;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+
+ .tablones2 {
+  width:100%;
+  background-image: url(./images/tablon.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+  box-shadow: -10px 10px 20px 2px rgba(0, 0, 0, 0.849);
+  border: 1.5px solid rgb(95, 70, 42);
+} 
+
+
+.vacio {
+  width: 100%;
+  opacity: 20%;
+  height: 50px;
+  
+}
+.globoRecetas{
+  width: 100%;
+  height: auto;
+  
+}
+
+
+
+@media only screen and (max-width:600px) {
+
+.ingresaryregistrar{
+  width: 40%;
+  margin-right: 40px;
+
+}
+.barrainicio{
+  height: 70px;
+  position: relative;
+}
+
+.barrainicio .iniciohorizontal{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+}
+
+.iniciohorizontal li{
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.menu-vertical{
+  width: 30%;
+  height: 30%;
+}
+
+.menu-vertical li a{
+  font-size: 20px;
+}
+
+.menu-vertical li:hover{
+  width: 50px;
+}
+
+.ingredientes-barra{
+  width: 20%;
+}
+
+.ingredientes-barra li{
+  font-size: 20px;
+}
+
+.autores{
+  width: 20%;
+}
+
+.autores li{
+  font-size: 20px;
+}
+
+.backgroundimage2{
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.imagenfondo2{
+  margin-left: 25%;
+}
+
+.vacio{
+  width: 100%;
+}
+
+.encabezadoRecetario{
+  width: 100%;
+  height: 120px;
+}
+
+.textoRecetario{
+  font-size: 40px;
+}
+
+.tablones2 {
+  width: 100%;
+  height: 900px;
+} 
+
+.receta{
+  width: 90%;
+  height: 700px;
+} 
+
+.titulo-imagen{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+  
+}
+
+.tituloReceta{
+  width: 85%;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.imagenes2{
+  width: 85%;
+  height: auto;
+
+}
+
+.contenido{
+  width: 100%;
+  font-size: 15px;
+  align-self: center;
+} 
+
+.casita{ 
+  width: 20%;
+}
+
+.imagenfondo2{
+  width: 50%;
+}
+
+.imagenlogo {
+   width: 100%;
+}
+
+.encabezado1{
+  width: 100%;
+}
+  
+.cuerditas2{
+  width: 100%;
+}
+
+.ingresaryregistrar{
+  width: 28%;
+}
+
+.imagenlogo{
+  width: 100%;
+} 
+.contenido{
+  font-size: 12px;
+}
+}
+
+@media only screen and (min-width:600px) {
+
+  .ingresaryregistrar{
+    width: 40%;
+    margin-right: 20px;
+  
+  }
+  .barrainicio{
+    height: 70px;
+    position: relative;
+  }
+  
+  .barrainicio .iniciohorizontal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+  }
+  
+  .iniciohorizontal li{
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  
+  .menu-vertical{
+    width: 30%;
+    height: 30%;
+  }
+  
+  .menu-vertical li a{
+    font-size: 20px;
+  }
+  
+  .menu-vertical li:hover{
+    width: 70px;
+  }
+
+  .ingredientes-barra{
+    width: 20%;
+  }
+  
+  .ingredientes-barra li{
+    font-size: 20px;
+  }
+  
+  .autores{
+    width: 20%;
+  }
+  
+  .autores li{
+    font-size: 20px;
+  }
+  
+  .backgroundimage2{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .imagenfondo2{
+    margin-left: 25%;
+  }
+  
+  .vacio{
+    width: 100%;
+  }
+  
+  .encabezadoRecetario{
+    width: 100%;
+    height: 120px;
+  }
+  
+  .textoRecetario{
+    font-size: 40px;
+  }
+  
+  .tablones2 {
+    width: 100%;
+    height: 900px;
+  } 
+  
+  .receta{
+    width: 90%;
+    height: 700px;
+    margin-left: 20px;
+  } 
+  
+  .titulo-imagen{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    
+  }
+  
+  .tituloReceta{
+    width: 85%;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .imagenes2{
+    width: 85%;
+    height: auto;
+  
+  }
+  
+  .contenido{
+    width: 100%;
+    font-size: 15px;
+    align-self: center;
+  } 
+  
+  .casita{ 
+    width: 20%;
+  }
+  
+  .imagenfondo2{
+    width: 50%;
+  }
+  
+  .imagenlogo {
+     width: 100%;
+  }
+  
+  .encabezado1{
+    width: 100%;
+  }
+    
+  .cuerditas2{
+    width: 100%;
+  }
+  
+  .ingresaryregistrar{
+    width: 28%;
+  }
+  
+  .imagenlogo{
+    width: 100%;
+  } 
+}
+@media only screen and (min-width:992px) {
+
+.ingresaryregistrar{
+  width: 40%;
+}
+
+.barrainicio{
+  height: 70px;
+  position: relative;
+}
+  
+.barrainicio .iniciohorizontal{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 5%;
+  
+}
+  
+.iniciohorizontal li{
+  font-size: 25px;
+  margin-left: 10px;
+}
+  
+.menu-vertical{
+  width: 30%;
+  height: 30%;
+}
+  
+.menu-vertical li a{
+  font-size: 20px;
+  
+}
+
+.menu-vertical li:hover{
+  width: 100px;
+}
+
+.ingredientes-barra{
+  width: 20%;
+}
+  
+.ingredientes-barra li{
+  font-size: 20px;
+}
+  
+.autores{
+  width: 20%;
+}
+  
+.autores li{
+  font-size: 20px;
+}
+  
+.backgroundimage2{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+  
+.imagenfondo2{
+  margin-left: 25%;
+}
+  
+.vacio{
+  width: 100%;
+}
+  
+.encabezadoRecetario{
+  width: 100%;
+  height: 120px;
+  position: relative;
+  
+}
+  
+.textoRecetario{
+  font-size: 55px;
+  position: absolute;
+  left: 38%;
+  bottom: 5%;
+}
+  
+.tablones2 {
+  width: 100%;
+  height: 900px;
+} 
+  
+.receta{
+  width: 90%;
+  height: 700px;
+  margin-left: 20px;
+} 
+  
+.titulo-imagen{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+  
+.tituloReceta{
+  width: 85%;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+  
+.imagenes2{
+  width: 85%;
+  height: auto;
+}
+  
+.contenido{
+  width: 100%;
+  font-size: 20px;
+  align-self: center;
+} 
+  
+.casita{ 
+  width: 20%;
+}
+  
+.imagenfondo2{
+  width: 50%;
+}
+  
+.imagenlogo {
+  width: 100%;
+}
+  
+.encabezado1{
+  width: 100%;
+}
+    
+.cuerditas2{
+  width: 100%;
+  height: 150px;
+}
+  
+.ingresaryregistrar{
+  width: 28%;
+}
+  
+.imagenlogo{
+  width: 100%;
+}  
+}
