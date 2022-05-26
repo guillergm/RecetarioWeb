@@ -1,2 +1,0 @@
-# RecetarioWeb
- Trabajo Grupal
